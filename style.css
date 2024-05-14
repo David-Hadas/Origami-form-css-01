@@ -1,9 +1,10 @@
+/* הגדרת רקע הדף לשחור וצבע הטקסט ללבן */
 body {
     background-color: black;
     color: white; 
 }
 
-
+/* הגדרת כפתורים עם קצוות מרובעים */
 button {
     background-color: gray; 
     color: white; 
@@ -15,4 +16,30 @@ button {
     font-size: 16px; 
     cursor: pointer; 
     border-radius: 0; 
+}
+
+/* הגדרת עיצוב לטופס */
+form {
+    margin: 20px; 
+    padding: 20px; 
+    background-color: #333; 
+    border-radius: 5px; 
+}
+
+/* הגדרת עיצוב לשדות טקסט */
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #444;
+    color: white;
+}
+
+/* הגדרת עיצוב לתוויות */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #bbb;
 }
