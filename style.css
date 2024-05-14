@@ -5,6 +5,13 @@
     border-radius: 10px !important;
 }
 
+field select-list fld_2022 {
+    background-color: yellow !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
+    
+}
+
 /* עיצוב הכפתורים */
 button, 
 input[type="submit"] {
