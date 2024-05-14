@@ -5,13 +5,6 @@
     border-radius: 10px !important;
 }
 
-.select2-container {
-    background-color: black !important;
-    padding: 20px !important;
-    border-radius: 10px !important;
-    
-}
-
 /* עיצוב הכפתורים */
 button, 
 input[type="submit"] {
@@ -47,4 +40,9 @@ label {
     display: block !important;
     margin: 10px 0 5px !important;
     color: #fff !important;
+}
+
+/* עיצוב הרקע עבור האלמנט הספציפי */
+.field.select-list.fld_2022 {
+    background-color: lightyellow !important;
 }
