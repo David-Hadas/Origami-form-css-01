@@ -1,5 +1,5 @@
-/* הגדרת רקע הטופס לצבע סגול */
-form {
+/* עיצוב הרקע של הטופס */
+#iframe_div form {
     background-color: purple;
     padding: 20px;
     border-radius: 10px;
@@ -7,8 +7,9 @@ form {
     box-sizing: border-box;
 }
 
-/* הגדרת כפתורים עם קצוות מרובעים ובצבע חום */
-button, input[type="submit"] {
+/* עיצוב הכפתורים */
+#iframe_div button, 
+#iframe_div input[type="submit"] {
     background-color: brown;
     color: white;
     border: none;
@@ -21,11 +22,11 @@ button, input[type="submit"] {
     border-radius: 5px;
 }
 
-/* הגדרת שדות הטופס בצבע צהוב */
-input[type="text"],
-input[type="email"],
-textarea,
-select {
+/* עיצוב שדות הטופס */
+#iframe_div input[type="text"],
+#iframe_div input[type="email"],
+#iframe_div textarea,
+#iframe_div select {
     background-color: yellow;
     color: black;
     border: 1px solid #ccc;
@@ -36,8 +37,8 @@ select {
     box-sizing: border-box;
 }
 
-/* הגדרת עיצוב לתוויות */
-label {
+/* עיצוב התוויות */
+#iframe_div label {
     display: block;
     margin: 10px 0 5px;
     color: #fff;
