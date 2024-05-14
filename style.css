@@ -1,6 +1,6 @@
 /* עיצוב הרקע של האזור שבתוך ה-iframe */
 .field_group_body {
-    background-color: black !important;
+    background-color: lightyellow !important;
     padding: 20px !important;
     border-radius: 10px !important;
 }
