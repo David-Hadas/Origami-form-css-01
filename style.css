@@ -1,13 +1,14 @@
-/* עיצוב הרקע של הטופס */
-#iframe_div iframe {
+form {
     background-color: purple !important;
     padding: 20px !important;
     border-radius: 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
 }
 
 /* עיצוב הכפתורים */
-#iframe_div iframe button,
-#iframe_div iframe input[type="submit"] {
+button, 
+input[type="submit"] {
     background-color: brown !important;
     color: white !important;
     border: none !important;
@@ -18,26 +19,4 @@
     font-size: 16px !important;
     cursor: pointer !important;
     border-radius: 5px !important;
-}
-
-/* עיצוב שדות הטופס */
-#iframe_div iframe input[type="text"],
-#iframe_div iframe input[type="email"],
-#iframe_div iframe textarea,
-#iframe_div iframe select {
-    background-color: yellow !important;
-    color: black !important;
-    border: 1px solid #ccc !important;
-    padding: 10px !important;
-    margin: 10px 0 !important;
-    border-radius: 3px !important;
-    width: 100% !important;
-    box-sizing: border-box !important;
-}
-
-/* עיצוב התוויות */
-#iframe_div iframe label {
-    display: block !important;
-    margin: 10px 0 5px !important;
-    color: #fff !important;
 }
