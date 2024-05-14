@@ -1,45 +1,43 @@
 /* עיצוב הרקע של הטופס */
-#iframe_div form {
-    background-color: purple;
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
-    box-sizing: border-box;
+#iframe_div iframe {
+    background-color: purple !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
 }
 
 /* עיצוב הכפתורים */
-#iframe_div form button,
-#iframe_div form input[type="submit"] {
-    background-color: brown;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+#iframe_div iframe button,
+#iframe_div iframe input[type="submit"] {
+    background-color: brown !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    border-radius: 5px !important;
 }
 
 /* עיצוב שדות הטופס */
-#iframe_div form input[type="text"],
-#iframe_div form input[type="email"],
-#iframe_div form textarea,
-#iframe_div form select {
-    background-color: yellow;
-    color: black;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 3px;
-    width: 100%;
-    box-sizing: border-box;
+#iframe_div iframe input[type="text"],
+#iframe_div iframe input[type="email"],
+#iframe_div iframe textarea,
+#iframe_div iframe select {
+    background-color: yellow !important;
+    color: black !important;
+    border: 1px solid #ccc !important;
+    padding: 10px !important;
+    margin: 10px 0 !important;
+    border-radius: 3px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
 }
 
 /* עיצוב התוויות */
-#iframe_div form label {
-    display: block;
-    margin: 10px 0 5px;
-    color: #fff;
+#iframe_div iframe label {
+    display: block !important;
+    margin: 10px 0 5px !important;
+    color: #fff !important;
 }
