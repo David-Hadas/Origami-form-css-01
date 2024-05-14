@@ -5,13 +5,13 @@
     border-radius: 10px !important;
 }
 
-.field_group_name_header ng-binding ng-scope {
+.'field_group_even' {
     background-color: lightyellow !important;
     padding: 20px !important;
     border-radius: 10px !important;
 }
 
-.field_group ng-scope field_group_odd {
+.field_group_even {
     background-color: lightyellow !important;
     padding: 20px !important;
     border-radius: 10px !important;
