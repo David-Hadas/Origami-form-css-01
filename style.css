@@ -5,8 +5,8 @@
     border-radius: 10px !important;
 }
 
-.field select-list fld_2022 {
-    background-color: yellow !important;
+.select2-container {
+    background-color: black !important;
     padding: 20px !important;
     border-radius: 10px !important;
     
