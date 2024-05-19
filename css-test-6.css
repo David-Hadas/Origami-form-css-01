@@ -9,11 +9,14 @@ html, body {
 }
 
 body {
-    width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.container {
+.field_group.ng-scope {
     background-color: #FFFFFF; /* צבע רקע לבן לתוכן הקונטיינר */
     border: 7px solid #FFC0CB; /* מסגרת ורודה בהירה */
     border-radius: 30px; /* זוויות מעוגלות 30 פיקסל */
