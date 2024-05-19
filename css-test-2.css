@@ -1,4 +1,21 @@
 /* styles.css */
+body {
+    background-color: #4B0082; /* רקע סגול כהה */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #FFC0CB; /* צבע ורוד בהיר */
+    border: 7px solid #FFC0CB; /* מסגרת ורודה בהירה */
+    border-radius: 30px; /* זוויות מעוגלות 30 פיקסל */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .field_group_name_header.ng-binding.ng-scope {
     background-color: #FFC0CB; /* צבע ורוד בהיר */
 }
