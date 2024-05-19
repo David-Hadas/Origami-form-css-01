@@ -9,6 +9,7 @@ html, body {
 }
 
 body {
+    width: 100%;
     display: flex;
 }
 
@@ -22,6 +23,10 @@ body {
     max-width: 1200px; /* מקסימום רוחב */
     height: 90%; /* גובה הקונטיינר */
     overflow-y: auto; /* גלילה אנכית במידת הצורך */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .field_group_name_header.ng-binding.ng-scope {
