@@ -1,19 +1,27 @@
 /* styles.css */
-body {
-    background-color: #4B0082; /* רקע סגול כהה */
+html, body {
+    height: 100%;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    background-color: #4B0082; /* רקע סגול כהה */
+}
+
+body {
+    display: flex;
 }
 
 .container {
-    background-color: #FFC0CB; /* צבע ורוד בהיר */
+    background-color: #FFFFFF; /* צבע רקע לבן לתוכן הקונטיינר */
     border: 7px solid #FFC0CB; /* מסגרת ורודה בהירה */
     border-radius: 30px; /* זוויות מעוגלות 30 פיקסל */
     padding: 20px;
     box-sizing: border-box;
+    width: 80%; /* רוחב הקונטיינר */
+    max-width: 1200px; /* מקסימום רוחב */
+    height: 90%; /* גובה הקונטיינר */
+    overflow-y: auto; /* גלילה אנכית במידת הצורך */
 }
 
 .field_group_name_header.ng-binding.ng-scope {
