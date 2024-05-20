@@ -1,13 +1,21 @@
 body {
     background-color: #4B0082; /* צבע סגול כהה */
+    margin: 0; /* הסרת מרווחים חיצוניים */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 #form-entity {
     width: 50%;
-    margin: 0 auto; /* מרכז את המסגרת */
     border: 7px solid #FF69B4; /* מסגרת ורודה בעובי 7 פיקסל */
+    border-radius: 30px; /* זוויות מעוגלות */
     padding: 20px; /* מרווח פנימי */
     background-color: white; /* רקע לבן בתוך המסגרת */
+    box-sizing: border-box; /* כלול את הפדינג והגבול ברוחב הכולל */
+    position: relative; /* חיוני לפסאודו-אלמנטים */
+    margin: 40px 0; /* 40 פיקסלים למעלה ולמטה */
 }
 
 .field_group {
