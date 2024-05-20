@@ -42,3 +42,8 @@ body {
     padding: 10px;
     border-radius: 4px;
 }
+
+/* הסתרת האלמנט של אוריגמי */
+#form-entity > div > a[href="https://origami.ms/"] {
+    display: none; 
+}
