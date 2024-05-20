@@ -1,0 +1,30 @@
+body {
+    background-color: #4B0082; /* צבע סגול כהה */
+}
+
+#form-entity {
+    width: 50%;
+    margin: 0 auto; /* מרכז את המסגרת */
+    border: 7px solid #FF69B4; /* מסגרת ורודה בעובי 7 פיקסל */
+    padding: 20px; /* מרווח פנימי */
+    background-color: white; /* רקע לבן בתוך המסגרת */
+}
+
+.field_group {
+    margin-bottom: 20px; /* מרווח בין קבוצות שדות */
+}
+
+.field_name {
+    font-weight: bold; /* שדה שם מודגש */
+}
+
+.input-datetime input,
+.select-from-entity input,
+.select-list select {
+    width: 100%; /* התאמה מלאה לרוחב */
+    padding: 10px; /* מרווח פנימי לשדות */
+    margin-bottom: 10px; /* מרווח תחתון לשדות */
+    border: 1px solid #ccc; /* גבול אפור */
+    border-radius: 4px; /* פינות מעוגלות */
+    box-sizing: border-box; /* כלול את הפדינג והגבול ברוחב הכולל */
+}
