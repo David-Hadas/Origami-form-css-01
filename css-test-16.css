@@ -9,13 +9,12 @@ body {
 
 #form-entity {
     width: 50%;
+    margin: 40px 0; /* 40 פיקסלים למעלה ולמטה */
     border: 7px solid #FF69B4; /* מסגרת ורודה בעובי 7 פיקסל */
     border-radius: 30px; /* זוויות מעוגלות */
     padding: 20px; /* מרווח פנימי */
     background-color: white; /* רקע לבן בתוך המסגרת */
     box-sizing: border-box; /* כלול את הפדינג והגבול ברוחב הכולל */
-    position: relative; /* חיוני לפסאודו-אלמנטים */
-    margin: 40px 0; /* 40 פיקסלים למעלה ולמטה */
 }
 
 .field_group {
@@ -35,4 +34,12 @@ body {
     border: 1px solid #ccc; /* גבול אפור */
     border-radius: 4px; /* פינות מעוגלות */
     box-sizing: border-box; /* כלול את הפדינג והגבול ברוחב הכולל */
+}
+
+.field_group_name_header,
+.field_group_body,
+.form_data_element_wrap {
+    background-color: #4B0082; /* צבע סגול כהה */
+    padding: 10px;
+    border-radius: 4px;
 }
