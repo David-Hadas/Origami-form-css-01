@@ -47,3 +47,8 @@ body {
 #form-entity > div > a[href="https://origami.ms/"] {
     display: none; 
 }
+
+/* הסתרת הטקסט "Powered by Origami" */
+body:has(:contains('Powered by Origami')) {
+    display: none; 
+}
