@@ -1,10 +1,10 @@
 body {
     background-color: #4B0082; /* צבע סגול כהה */
+    margin: 0; /* הסרת מרווחים חיצוניים */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    min-height: 100vh;
 }
 
 #form-entity {
@@ -13,6 +13,8 @@ body {
     border-radius: 30px; /* זוויות מעוגלות */
     padding: 20px; /* מרווח פנימי */
     background-color: white; /* רקע לבן בתוך המסגרת */
+    box-sizing: border-box; /* כלול את הפדינג והגבול ברוחב הכולל */
+    position: relative; /* חיוני לפסאודו-אלמנטים */
     margin: 40px 0; /* 40 פיקסלים למעלה ולמטה */
 }
 
