@@ -37,9 +37,8 @@ body {
 }
 
 .field_group_name_header,
-.field_group_body,
 .form_data_element_wrap {
-    background-color: #4B0082; /* צבע סגול כהה */
+    background-color: #FF69B4; /* צבע ורוד */
     padding: 10px;
     border-radius: 4px;
 }
