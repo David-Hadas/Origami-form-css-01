@@ -73,3 +73,7 @@ body:has(:contains('Powered by Origami')) {
     background-color: #4B0082; /* עוד צבע סגול לרקע פנימי */
     border: none; /* הסרת מסגרת */
 }
+
+.form_data_element_wrap.ng-scope {
+    color: #FFFFFF; /* צבע טקסט לבן */
+}
