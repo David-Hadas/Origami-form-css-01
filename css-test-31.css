@@ -65,11 +65,11 @@ body:has(:contains('Powered by Origami')) {
 }
 
 .field_group.ng-scope.field_group_odd .field_group_body > .ng-scope {
-    background-color: #800080; /* צבע סגול */
+    background-color: #4B0082; /* עוד צבע סגול לרקע פנימי */
     border: none; /* הסרת מסגרת */
 }
 
 .field_group_body {
-    background-color: #800080; /* צבע סגול */
+    background-color: #4B0082; /* עוד צבע סגול לרקע פנימי */
     border: none; /* הסרת מסגרת */
 }
