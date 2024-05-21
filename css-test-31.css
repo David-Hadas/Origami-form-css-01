@@ -69,3 +69,7 @@ body:has(:contains('Powered by Origami')) {
     border: none; /* הסרת מסגרת */
 }
 
+.field_group_body {
+    background-color: #800080; /* צבע סגול */
+    border: none; /* הסרת מסגרת */
+}
