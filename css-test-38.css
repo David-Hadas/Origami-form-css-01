@@ -87,8 +87,12 @@ body:has(:contains('Powered by Origami')) {
     color: #000000 !important; /* צבע טקסט שחור - לא יודע מה זה בדיוק - GPT נתן לי */
 }
 .field_group.ng-scope.field_group_even {
-    background-color: #008000 !important; /* צבע ירוק */
+    background-color: #4B0082 !important; /* צבע ירוק */
+        border: none; /* הסרת מסגרת */
+
 }
 .form_data_element_wrap.ng-scope {
-    background-color: #008000 !important; /* צבע ירוק */
+    background-color: #4B0082 !important; /* צבע ירוק */
+        border: none; /* הסרת מסגרת */
+
 }
