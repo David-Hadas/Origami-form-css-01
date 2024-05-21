@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // איתור הכפתור
     var submitButton = document.querySelector(".submitButton");
+    // איתור תיבת הבחירה
     var selectElement = document.querySelector(".statusSelect");
 
     if (submitButton && selectElement) {
@@ -8,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if (selectedValue === "נבדקתי") {
                 // איתור והחלפת תגובת ברירת המחדל
-                var defaultResponseElement = document.querySelector("#responseMessage"); // כאן נניח שיש אלמנט עם ID זה
+                var defaultResponseElement = document.querySelector("#responseMessage");
                 if (defaultResponseElement) {
                     defaultResponseElement.innerText = "מעולה, נמתין לתגובת חברת הביטוח.";
                     defaultResponseElement.style.fontSize = "1em";
