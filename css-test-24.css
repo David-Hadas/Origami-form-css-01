@@ -55,6 +55,6 @@ body:has(:contains('Powered by Origami')) {
 
 .create_entity_buttons button {
     width: 100%;
-    background-color: #4B0082; /* צבע סגול כהה */
+    background-color: #000000; /* צבע שחור */
     border-radius: 4px; /* שמירה על קצוות מעוגלים */
 }
