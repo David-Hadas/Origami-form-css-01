@@ -74,14 +74,15 @@ body:has(:contains('Powered by Origami')) {
     border: none; /* הסרת מסגרת */
 }
 
-.form_data_element_wrap.ng-scope {
-    color: #FFFFFF !important; /* צבע טקסט לבן לכותרות */
-}
-
 .form_data_element_wrap.ng-scope .field_name,
-.form_data_element_wrap.ng-scope .select2-choice,
-.form_data_element_wrap.ng-scope .select2-chosen,
-.form_data_element_wrap.ng-scope input,
 .form_data_element_wrap.ng-scope .error_msg {
     color: #FFFFFF !important; /* צבע טקסט לבן מוחלט */
+}
+
+.form_data_element_wrap.ng-scope .select2-choice {
+    color: initial !important; /* שמירה על צבע טקסט ברירת המחדל */
+}
+
+.form_data_element_wrap.ng-scope input {
+    color: #000000 !important; /* צבע טקסט שחור */
 }
