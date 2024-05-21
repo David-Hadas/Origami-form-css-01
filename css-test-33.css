@@ -56,7 +56,7 @@ body:has(:contains('Powered by Origami')) {
 .create_entity_buttons button {
     width: 100%;
     background-color: #000000; /* כפתור צבע שחור */
-    border-radius: 4px; /* שמירה על קצוות מעוגלים */
+    border-radius: 7px; /* שמירה על קצוות מעוגלים */
 }
 
 .field_group.ng-scope.field_group_odd {
@@ -75,5 +75,5 @@ body:has(:contains('Powered by Origami')) {
 }
 
 .form_data_element_wrap.ng-scope {
-    color: #FFFFFF; /* צבע טקסט לבן */
+    color: #FFFFFF !important; /* צבע טקסט לבן לכותרות */
 }
