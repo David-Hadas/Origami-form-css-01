@@ -86,3 +86,6 @@ body:has(:contains('Powered by Origami')) {
 .form_data_element_wrap.ng-scope input {
     color: #000000 !important; /* צבע טקסט שחור - לא יודע מה זה בדיוק - GPT נתן לי */
 }
+.field_group.ng-scope.field_group_even {
+    background-color: #008000 !important; /* צבע ירוק */
+}
