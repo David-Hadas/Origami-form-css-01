@@ -61,5 +61,6 @@ body:has(:contains('Powered by Origami')) {
 
 .field_group.ng-scope.field_group_odd {
     background-color: #4B0082; /* רקע פנימי צבע סגול */
+    border: none; /* הסרת מסגרת */
 }
 
