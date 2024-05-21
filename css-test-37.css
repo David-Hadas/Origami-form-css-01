@@ -89,3 +89,6 @@ body:has(:contains('Powered by Origami')) {
 .field_group.ng-scope.field_group_even {
     background-color: #008000 !important; /* צבע ירוק */
 }
+.field_data_element_wrap.ng-scope {
+    background-color: #008080 !important; /* צבע ירוק */
+}
