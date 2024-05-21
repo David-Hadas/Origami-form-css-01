@@ -76,13 +76,13 @@ body:has(:contains('Powered by Origami')) {
 
 .form_data_element_wrap.ng-scope .field_name,
 .form_data_element_wrap.ng-scope .error_msg {
-    color: #FFFFFF !important; /* צבע טקסט לבן מוחלט */
+    color: #FFFFFF !important; /* צבע טקסט לבן מוחלט לכותרות השאלות וכן להודעות שגיאה */
 }
 
 .form_data_element_wrap.ng-scope .select2-choice {
-    color: initial !important; /* שמירה על צבע טקסט ברירת המחדל */
+    color: initial !important; /* שמירה על צבע טקסט ברירת המחדל בשדות בחירה */
 }
 
 .form_data_element_wrap.ng-scope input {
-    color: #000000 !important; /* צבע טקסט שחור */
+    color: #000000 !important; /* צבע טקסט שחור - לא יודע מה זה בדיוק - GPT נתן לי */
 }
