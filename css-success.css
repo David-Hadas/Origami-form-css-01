@@ -47,3 +47,42 @@ body {
 #form-entity > div > a[href="https://origami.ms/"] {
     display: none; 
 }
+
+/* הסתרת הטקסט "Powered by Origami" */
+body:has(:contains('Powered by Origami')) {
+    display: none; 
+}
+
+.create_entity_buttons button {
+    width: 100%;
+    background-color: #000000; /* כפתור צבע שחור */
+    border-radius: 7px; /* שמירה על קצוות מעוגלים */
+}
+
+.field_group.ng-scope.field_group_odd {
+    background-color: #4B0082; /* רקע פנימי צבע סגול */
+    border: none; /* הסרת מסגרת */
+}
+
+.field_group.ng-scope.field_group_odd .field_group_body > .ng-scope {
+    background-color: #4B0082; /* עוד צבע סגול לרקע פנימי */
+    border: none; /* הסרת מסגרת */
+}
+
+.field_group_body {
+    background-color: #4B0082; /* עוד צבע סגול לרקע פנימי */
+    border: none; /* הסרת מסגרת */
+}
+
+.form_data_element_wrap.ng-scope .field_name,
+.form_data_element_wrap.ng-scope .error_msg {
+    color: #FFFFFF !important; /* צבע טקסט לבן מוחלט לכותרות השאלות וכן להודעות שגיאה */
+}
+
+.form_data_element_wrap.ng-scope .select2-choice {
+    color: initial !important; /* שמירה על צבע טקסט ברירת המחדל בשדות בחירה */
+}
+
+.form_data_element_wrap.ng-scope input {
+    color: #000000 !important; /* צבע טקסט שחור - לא יודע מה זה בדיוק - GPT נתן לי */
+}
