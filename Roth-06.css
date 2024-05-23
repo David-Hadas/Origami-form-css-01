@@ -15,11 +15,13 @@ div.field_name_wrapper div.field_name.ng-binding {
 }
 
 
+
+
 /* עיצוב כללי ל-Datepicker */
 .xdsoft_datepicker {
     background-color: var(--black);
     border-radius: 8px;
-    color: #000 !important; /* טקסט בצבע שחור */
+    color: #000; /* טקסט בצבע שחור */
     font-weight: bold; /* טקסט מודגש */
 }
 
@@ -31,6 +33,8 @@ div.field_name_wrapper div.field_name.ng-binding {
     padding: 10px;
     background-color: var(--grey);
     border-bottom: 1px solid var(--green);
+    color: #000; /* טקסט בצבע שחור */
+    font-weight: bold; /* טקסט מודגש */
 }
 
 .xdsoft_prev,
@@ -124,6 +128,7 @@ div.field_name_wrapper div.field_name.ng-binding {
 .xdsoft_scroller {
     background-color: var(--green);
 }
+
 
 
 
