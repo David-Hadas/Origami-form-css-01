@@ -19,7 +19,7 @@ div.field_name_wrapper div.field_name.ng-binding {
 .xdsoft_datepicker {
     background-color: var(--black);
     border-radius: 8px;
-    color: #000; /* טקסט בצבע שחור */
+    color: #000 !important; /* טקסט בצבע שחור */
     font-weight: bold; /* טקסט מודגש */
 }
 
