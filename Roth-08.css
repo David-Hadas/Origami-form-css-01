@@ -57,6 +57,12 @@ div.field_name_wrapper div.field_name.ng-binding {
     font-weight: bold !important; /* טקסט מודגש */
 }
 
+/* עיצוב התאריכים בתוך תאי הטבלה */
+.xdsoft_calendar td div {
+    color: #000 !important; /* טקסט בצבע שחור */
+    font-weight: bold !important; /* טקסט מודגש */
+}
+
 /* עיצוב האפשרויות בחירת חודש ושנה */
 .xdsoft_select {
     background-color: var(--grey);
