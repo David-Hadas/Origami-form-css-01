@@ -1,5 +1,5 @@
-/* Select the specific readonly text field by its class and apply styles */
-div.field.readonly-text.fld_2133 span.field.readonly_text.fld_2133 {
+/* Select all readonly-text fields and apply styles */
+div.field.readonly-text span.field.readonly_text {
     border-radius: 8px !important;
     background: var(--grey) !important;
     color: #fff !important;
@@ -13,6 +13,7 @@ div.field.readonly-text.fld_2133 span.field.readonly_text.fld_2133 {
 div.field_name_wrapper div.field_name.ng-binding {
     color: #fff;
 }
+
 
 /*@font-face {
   font-display: swap;
