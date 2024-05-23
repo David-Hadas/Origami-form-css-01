@@ -15,6 +15,111 @@ div.field_name_wrapper div.field_name.ng-binding {
 }
 
 
+/* עיצוב כללי ל-Datepicker */
+.xdsoft_datepicker {
+    background-color: var(--black);
+    border-radius: 8px;
+    color: #fff;
+}
+
+/* עיצוב החלק העליון של ה-Datepicker */
+.xdsoft_mounthpicker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--grey);
+    border-bottom: 1px solid var(--green);
+}
+
+.xdsoft_prev,
+.xdsoft_next {
+    background-color: var(--green);
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.xdsoft_label {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* עיצוב האפשרויות בחירת חודש ושנה */
+.xdsoft_select {
+    background-color: var(--grey);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.xdsoft_option {
+    padding: 5px;
+}
+
+.xdsoft_option:hover,
+.xdsoft_option.xdsoft_current {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+/* עיצוב הכפתור של היום */
+.xdsoft_today_button {
+    background-color: var(--green);
+    border: none;
+    border-radius: 8px;
+    color: var(--black);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.xdsoft_today_button:hover {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+/* עיצוב לוח השנה */
+.xdsoft_calendar {
+    padding: 10px;
+}
+
+.xdsoft_calendar th,
+.xdsoft_calendar td {
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.xdsoft_calendar .xdsoft_date {
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.xdsoft_calendar .xdsoft_date:hover {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.xdsoft_calendar .xdsoft_today {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+/* עיצוב הסקרולר */
+.xdsoft_scrollbar {
+    background-color: var(--grey);
+}
+
+.xdsoft_scroller {
+    background-color: var(--green);
+}
+
+
+
+/*מכאן רועי ריבק*/
 /*@font-face {
   font-display: swap;
   font-family: 'FB open heb';
