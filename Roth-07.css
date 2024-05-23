@@ -33,12 +33,11 @@ div.field_name_wrapper div.field_name.ng-binding {
     padding: 10px;
     background-color: var(--grey);
     border-bottom: 1px solid var(--green);
-    color: #000; /* טקסט בצבע שחור */
-    font-weight: bold; /* טקסט מודגש */
 }
 
 .xdsoft_prev,
-.xdsoft_next {
+.xdsoft_next,
+.xdsoft_today_button {
     background-color: var(--green);
     border: none;
     border-radius: 50%;
@@ -48,43 +47,24 @@ div.field_name_wrapper div.field_name.ng-binding {
     font-weight: bold;
 }
 
-.xdsoft_label {
-    color: #000; /* טקסט בצבע שחור */
-    font-size: 16px;
-    font-weight: bold; /* טקסט מודגש */
+.xdsoft_label span,
+.xdsoft_label i,
+.xdsoft_option,
+.xdsoft_calendar th,
+.xdsoft_calendar td,
+.xdsoft_today_button {
+    color: #000 !important; /* טקסט בצבע שחור */
+    font-weight: bold !important; /* טקסט מודגש */
 }
 
 /* עיצוב האפשרויות בחירת חודש ושנה */
 .xdsoft_select {
     background-color: var(--grey);
     border-radius: 8px;
-    color: #000; /* טקסט בצבע שחור */
-    font-weight: bold; /* טקסט מודגש */
-}
-
-.xdsoft_option {
-    padding: 5px;
-    color: #000; /* טקסט בצבע שחור */
-    font-weight: bold; /* טקסט מודגש */
 }
 
 .xdsoft_option:hover,
 .xdsoft_option.xdsoft_current {
-    background-color: var(--green);
-    color: var(--black);
-}
-
-/* עיצוב הכפתור של היום */
-.xdsoft_today_button {
-    background-color: var(--green);
-    border: none;
-    border-radius: 8px;
-    color: var(--black);
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.xdsoft_today_button:hover {
     background-color: var(--green);
     color: var(--black);
 }
@@ -94,27 +74,13 @@ div.field_name_wrapper div.field_name.ng-binding {
     padding: 10px;
 }
 
-.xdsoft_calendar th,
-.xdsoft_calendar td {
-    color: #000; /* טקסט בצבע שחור */
-    font-weight: bold; /* טקסט מודגש */
-    padding: 5px;
-    text-align: center;
-}
-
 .xdsoft_calendar .xdsoft_date {
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.3s;
-    color: #000; /* טקסט בצבע שחור */
-    font-weight: bold; /* טקסט מודגש */
 }
 
-.xdsoft_calendar .xdsoft_date:hover {
-    background-color: var(--green);
-    color: var(--black);
-}
-
+.xdsoft_calendar .xdsoft_date:hover,
 .xdsoft_calendar .xdsoft_today {
     background-color: var(--green);
     color: var(--black);
