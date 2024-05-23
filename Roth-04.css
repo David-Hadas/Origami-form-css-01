@@ -19,7 +19,8 @@ div.field_name_wrapper div.field_name.ng-binding {
 .xdsoft_datepicker {
     background-color: var(--black);
     border-radius: 8px;
-    color: #fff;
+    color: #000; /* טקסט בצבע שחור */
+    font-weight: bold; /* טקסט מודגש */
 }
 
 /* עיצוב החלק העליון של ה-Datepicker */
@@ -44,19 +45,23 @@ div.field_name_wrapper div.field_name.ng-binding {
 }
 
 .xdsoft_label {
-    color: #fff;
+    color: #000; /* טקסט בצבע שחור */
     font-size: 16px;
+    font-weight: bold; /* טקסט מודגש */
 }
 
 /* עיצוב האפשרויות בחירת חודש ושנה */
 .xdsoft_select {
     background-color: var(--grey);
     border-radius: 8px;
-    color: #fff;
+    color: #000; /* טקסט בצבע שחור */
+    font-weight: bold; /* טקסט מודגש */
 }
 
 .xdsoft_option {
     padding: 5px;
+    color: #000; /* טקסט בצבע שחור */
+    font-weight: bold; /* טקסט מודגש */
 }
 
 .xdsoft_option:hover,
@@ -87,7 +92,8 @@ div.field_name_wrapper div.field_name.ng-binding {
 
 .xdsoft_calendar th,
 .xdsoft_calendar td {
-    color: #fff;
+    color: #000; /* טקסט בצבע שחור */
+    font-weight: bold; /* טקסט מודגש */
     padding: 5px;
     text-align: center;
 }
@@ -96,6 +102,8 @@ div.field_name_wrapper div.field_name.ng-binding {
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.3s;
+    color: #000; /* טקסט בצבע שחור */
+    font-weight: bold; /* טקסט מודגש */
 }
 
 .xdsoft_calendar .xdsoft_date:hover {
