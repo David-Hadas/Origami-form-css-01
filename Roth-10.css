@@ -19,7 +19,7 @@ div.field_name_wrapper div.field_name.ng-binding {
 
 /* עיצוב כללי ל-Datepicker */
 .xdsoft_datepicker {
-    background-color: var(--black);
+    background-color: #fff; /* צבע רקע לבן */
     border-radius: 8px;
     color: #000; /* טקסט בצבע שחור */
     font-weight: bold; /* טקסט מודגש */
@@ -31,19 +31,19 @@ div.field_name_wrapper div.field_name.ng-binding {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: var(--grey);
-    border-bottom: 1px solid var(--green);
+    background-color: #fff; /* צבע רקע לבן */
+    border-bottom: 1px solid #ccc; /* גבול תחתון אפור */
 }
 
 .xdsoft_prev,
 .xdsoft_next,
 .xdsoft_today_button {
-    background-color: var(--green);
+    background-color: #000; /* צבע רקע שחור */
     border: none;
     border-radius: 50%;
     width: 24px;
     height: 24px;
-    color: var(--black);
+    color: #fff; /* צבע טקסט לבן */
     font-weight: bold;
 }
 
@@ -63,21 +63,28 @@ div.field_name_wrapper div.field_name.ng-binding {
     font-weight: bold !important; /* טקסט מודגש */
 }
 
+/* עיצוב התאים של הטבלה */
+.xdsoft_calendar td {
+    background-color: #fff !important; /* צבע רקע לבן */
+    border: none; /* הסרת גבולות */
+    padding: 0 !important; /* הסרת Padding */
+}
+
 /* עיצוב האפשרויות בחירת חודש ושנה */
 .xdsoft_select {
-    background-color: var(--grey);
+    background-color: #fff; /* צבע רקע לבן */
     border-radius: 8px;
 }
 
 .xdsoft_option:hover,
 .xdsoft_option.xdsoft_current {
-    background-color: var(--green);
-    color: var(--black);
+    background-color: #000; /* צבע רקע שחור */
+    color: #fff; /* צבע טקסט לבן */
 }
 
 /* עיצוב לוח השנה */
 .xdsoft_calendar {
-    padding: 0px;
+    padding: 10px;
 }
 
 .xdsoft_calendar .xdsoft_date {
@@ -88,18 +95,19 @@ div.field_name_wrapper div.field_name.ng-binding {
 
 .xdsoft_calendar .xdsoft_date:hover,
 .xdsoft_calendar .xdsoft_today {
-    background-color: var(--green);
-    color: var(--black);
+    background-color: #000; /* צבע רקע שחור */
+    color: #fff; /* צבע טקסט לבן */
 }
 
 /* עיצוב הסקרולר */
 .xdsoft_scrollbar {
-    background-color: var(--grey);
+    background-color: #fff; /* צבע רקע לבן */
 }
 
 .xdsoft_scroller {
-    background-color: var(--green);
+    background-color: #000; /* צבע רקע שחור */
 }
+
 
 
 
