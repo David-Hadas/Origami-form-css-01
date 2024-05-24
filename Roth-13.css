@@ -93,8 +93,8 @@ div.field_name_wrapper div.field_name.ng-binding {
 
 /* עיצוב הכותרת של הטבלה */
 .xdsoft_calendar th {
-    background-color: #ddd !important; /* צבע רקע אפור בהיר */
-    color: #fff !important; /* טקסט בצבע לבן */
+    background-color: #aaa !important; /* צבע רקע אפור בינוני */
+	color: #fff !important; /* טקסט בצבע לבן */
     font-weight: bold !important; /* טקסט מודגש */
 }
 
