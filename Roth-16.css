@@ -23,7 +23,7 @@ div.field_name_wrapper div.field_name.ng-binding {
     border-radius: 8px;
     color: #fff; /* טקסט בצבע לבן */
     font-weight: bold; /* טקסט מודגש */
-	    transform: scale(1.5); /* הגדלת כל האלמנטים פי 1.35 */
+	    transform: scale(1.25); /* הגדלת כל האלמנטים פי 1.25 */
     transform-origin: top left; /* לשמור על המיקום המקורי */
 }
 
