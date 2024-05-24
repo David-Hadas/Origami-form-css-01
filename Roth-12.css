@@ -19,7 +19,7 @@ div.field_name_wrapper div.field_name.ng-binding {
 
 /* עיצוב כללי ל-Datepicker */
 .xdsoft_datepicker {
-    background-color: #333; /* צבע רקע אפור כהה מאוד */
+    background-color: #333; /* צבע רקע אפור כהה */
     border-radius: 8px;
     color: #fff; /* טקסט בצבע לבן */
     font-weight: bold; /* טקסט מודגש */
@@ -31,19 +31,19 @@ div.field_name_wrapper div.field_name.ng-binding {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #333; /* צבע רקע אפור כהה מאוד */
+    background-color: #333; /* צבע רקע אפור כהה */
     border-bottom: 1px solid #ccc; /* גבול תחתון אפור */
 }
 
 .xdsoft_prev,
 .xdsoft_next,
 .xdsoft_today_button {
-    background-color: #fff; /* צבע רקע לבן */
+    background-color: #333; /* צבע רקע אפור כהה */
     border: none;
     border-radius: 50%;
     width: 24px;
     height: 24px;
-    color: #333; /* צבע טקסט אפור כהה מאוד */
+    color: #fff; /* צבע טקסט לבן */
     font-weight: bold;
 }
 
@@ -57,6 +57,27 @@ div.field_name_wrapper div.field_name.ng-binding {
     font-weight: bold !important; /* טקסט מודגש */
 }
 
+.xdsoft_label {
+    background-color: #333 !important; /* צבע רקע אפור כהה */
+    color: #fff !important; /* טקסט בצבע לבן */
+}
+
+.xdsoft_select {
+    background-color: #333 !important; /* צבע רקע אפור כהה */
+    color: #fff !important; /* טקסט בצבע לבן */
+}
+
+.xdsoft_option {
+    background-color: #333 !important; /* צבע רקע אפור כהה */
+    color: #fff !important; /* טקסט בצבע לבן */
+}
+
+.xdsoft_option:hover,
+.xdsoft_option.xdsoft_current {
+    background-color: #fff !important; /* צבע רקע לבן */
+    color: #333 !important; /* טקסט בצבע אפור כהה */
+}
+
 /* עיצוב התאריכים בתוך תאי הטבלה */
 .xdsoft_calendar td div {
     color: #fff !important; /* טקסט בצבע לבן */
@@ -65,38 +86,9 @@ div.field_name_wrapper div.field_name.ng-binding {
 
 /* עיצוב התאים של הטבלה */
 .xdsoft_calendar td {
-    background-color: #333 !important; /* צבע רקע אפור כהה מאוד */
+    background-color: #333 !important; /* צבע רקע אפור כהה */
     border: none; /* הסרת גבולות */
     padding: 0 !important; /* הסרת Padding */
-}
-
-/* עיצוב האפשרויות בחירת חודש ושנה */
-.xdsoft_select {
-    background-color: #333; /* צבע רקע אפור כהה מאוד */
-    border-radius: 8px;
-}
-
-.xdsoft_option:hover,
-.xdsoft_option.xdsoft_current {
-    background-color: #fff; /* צבע רקע לבן */
-    color: #333; /* צבע טקסט אפור כהה מאוד */
-}
-
-/* עיצוב לוח השנה */
-.xdsoft_calendar {
-    padding: 10px;
-}
-
-.xdsoft_calendar .xdsoft_date {
-    cursor: pointer;
-    border-radius: 50%;
-    transition: background-color 0.3s;
-}
-
-.xdsoft_calendar .xdsoft_date:hover,
-.xdsoft_calendar .xdsoft_today {
-    background-color: #fff; /* צבע רקע לבן */
-    color: #333; /* צבע טקסט אפור כהה מאוד */
 }
 
 /* עיצוב הכותרת של הטבלה */
@@ -106,9 +98,14 @@ div.field_name_wrapper div.field_name.ng-binding {
     font-weight: bold !important; /* טקסט מודגש */
 }
 
+/* עיצוב האלמנט החיצוני */
+.xdsoft_datetimepicker {
+    border-radius: 8px; /* קצוות מעוגלים לאלמנט החיצוני ביותר */
+}
+
 /* עיצוב הסקרולר */
 .xdsoft_scrollbar {
-    background-color: #333; /* צבע רקע אפור כהה מאוד */
+    background-color: #333; /* צבע רקע אפור כהה */
 }
 
 .xdsoft_scroller {
