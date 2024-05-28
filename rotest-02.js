@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var selectField = document.querySelector('select[name="fld_2148_dup_g_257"]');
-    var conditionalField = document.getElementById('conditional-field');
+    // מצא את שדה הבחירה המדויק
+    var selectField = document.querySelector('.select2-container[id="s2id_autogen3"] select[name="fld_2148_dup_g_257"]');
+    // מצא את השדה המותנה המדויק
+    var conditionalField = document.querySelector('.field_group.ng-scope.field_group_even');
 
     selectField.addEventListener('change', function() {
         if (this.value !== '' && this.value !== '- בחר -') {
