@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // ודא שהדף נטען
+    // מצא את שדה הבחירה
     var selectField = document.querySelector('select[name="fld_2148_dup_g_257"]');
+    // מצא את האלמנט שמציג את הבחירה
     var selectTextElement = document.querySelector('#select2-chosen-9');
+    // מצא את ה-div שמכיל את האזור המותנה
     var conditionalField = document.querySelector('.field_group.ng-scope.field_group_even');
 
     if (selectField && selectTextElement && conditionalField) {
@@ -21,5 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
         selectField.addEventListener('change', function() {
             checkFieldVisibility();
         });
+
+        // הוסף מאזין לאירוע שינוי של select2 בצורה דינאמית
+        var observer = new MutationObserver(checkFieldVisibility);
+        observer.observe(selectTextElement, { childList: true, subtree: true });
     }
 });
