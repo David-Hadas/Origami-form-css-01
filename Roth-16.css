@@ -232,7 +232,7 @@ div.select2-result-label {
 }
 .entity input,
 .select2-container-multi ul.select2-choices {
-    border-color: #ffffff44;
+    border-color: #3DD598;
 }
 @media (mmin-width: 980px) {
     .entity .field_group_body .form_data_element_wrap {
