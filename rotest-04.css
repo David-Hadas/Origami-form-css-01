@@ -1,4 +1,4 @@
 /* נסתיר את השדה המותנה כברירת מחדל */
-#conditional-field {
+.field_group.ng-scope.field_group_even {
     display: none;
 }
