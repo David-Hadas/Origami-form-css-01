@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // מצא את ה-select field לפי ה-name
     var selectField = document.querySelector('select[name="fld_2148_dup_g_257"]');
     // מצא את ה-div שמכיל את השדה המותנה
-    var conditionalField = document.querySelector('div.field_group.ng-scope.field_group_even');
+    var conditionalField = document.querySelector('.field_group.ng-scope.field_group_even');
 
     // וודא שמצאנו את האלמנטים
     if (selectField && conditionalField) {
