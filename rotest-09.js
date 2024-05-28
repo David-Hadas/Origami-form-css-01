@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // מצא את ה-div שמכיל את השדה המותנה
     var conditionalField = document.querySelector('.field_group.ng-scope.field_group_even');
 
+    // וודא שמצאנו את האלמנטים
     if (selectField && conditionalField) {
         // בדוק את המצב ההתחלתי בעת טעינת הדף
         function checkInitialValue() {
