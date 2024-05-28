@@ -2,16 +2,16 @@
 div.field.readonly-text span.field.readonly_text {
     border-radius: 8px !important;
     background: var(--grey) !important;
-    color: #fff !important;
+    color: #3DD598 !important;
     text-align: right !important;
     padding: 10px;
     display: block; /* Ensure it takes the full width */
-    border: 1px solid #3DD598;
+    border: 3px solid #3DD598;
 }
 
 /* Ensure the field name also matches the style */
 div.field_name_wrapper div.field_name.ng-binding {
-    color: #fff;
+    color: #3DD598;
 }
 
 
@@ -167,13 +167,13 @@ div#entity-container {
 }
 
 .select2-drop {
-    border-radius: 8px;
+    border-radius: 25px;
 }
 .select2-drop ul li.select2-highlighted {
     background: var(--green);
 }
 .select2-drop ul li:not(.select2-highlighted) {
-    background: var(--black);
+    background: var(--green);
 }
 /*div.select2-container .select2-chosen {
     color: var(--black);
@@ -182,7 +182,7 @@ ul.select2-choices,
 input, 
 a.select2-choice,
 .textarea_field textarea {
-    border-radius: 8px !important;
+    border-radius: 15px !important;
     background: var(--grey) !important;
     color: #3DD598 !important;
     text-align: right !important;
@@ -195,7 +195,7 @@ ul.select2-choices:focus, input:not(.select2-input):focus, a.select2-choice:focu
     outline: 1px solid var(--green) !important;
 }
 div.field_name_wrapper div.field_name {
-    color: #fff;
+    color: #3DD598;
     width: calc(100% - 20px);
 }
 div.select2-result-label {
@@ -203,8 +203,8 @@ div.select2-result-label {
 }
 .select2-search,
 .select2-search input.select2-input {
-    padding: 0;
-    margin: 0;
+    padding: 200;
+    margin: 200;
 }
 .create_entity_buttons {
     display: flex;
@@ -232,7 +232,7 @@ div.select2-result-label {
 }
 .entity input,
 .select2-container-multi ul.select2-choices {
-    border-color: #ffffff44;
+    border-color: #3DD598;
 }
 @media (mmin-width: 980px) {
     .entity .field_group_body .form_data_element_wrap {
